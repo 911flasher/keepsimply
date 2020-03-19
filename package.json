@@ -2,7 +2,7 @@
   "name": "site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://911flasher.github.io/site",
+  "homepage": "https://911flasher.github.io/site",
   "dependencies": {
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
