@@ -1,0 +1,11 @@
+{
+  "/_app": "pages/_app.js",
+  "/api/graphql": "pages/api/graphql.js",
+  "/category/[category]": "pages/category/[category].html",
+  "/checkout": "pages/checkout.html",
+  "/": "pages/index.html",
+  "/product/[id]": "pages/product/[id].js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
