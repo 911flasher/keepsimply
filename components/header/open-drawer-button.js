@@ -1,6 +1,6 @@
-export default function ToggleDrawerButton({ openDrawer }) {
+export default function ToggleDrawerButton({ Setopen }) {
   return (
-    <button onClick={openDrawer}>
+    <button  onClick={() => Setopen("translateX(0%)")}>
       <div className="button-line" />
       <div className="button-line" />
       <div className="button-line" />

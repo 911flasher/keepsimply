@@ -1,0 +1,47 @@
+@media (max-width: 1000px) {
+  .about{
+      width:100%;
+      cursor: pointer;
+      
+      background: none;
+      box-shadow: none;
+      box-sizing: border-box;
+      border-radius: 6px;
+      margin-top: 24px;
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .Maintitle{
+      margin:auto;
+      margin-top: 24px;
+      font-size: 22px;
+    }
+    .title{
+      display: flex;
+      align-items: center;
+      min-height: 40px;
+      width:100%;
+      border-bottom: 0.5px solid #919191;
+    }
+    .title>p{
+      margin-left:10px;
+    }
+    .row{
+      display: flex;
+      align-items: center;
+      min-height: 40px;
+      width:100%;
+      border-bottom: 0.5px solid #919191;
+    }
+    
+    .col{
+      display: flex;  
+      height: 100%;
+      width:100%;
+      align-items: center;
+    }
+    .col>p{
+      margin-left:10px;
+    }
+}

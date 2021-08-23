@@ -1,4 +1,4 @@
-import Warning from '../components/alerts/warnig';
+
 import Page from '../components/page';
 import ProductSection from '../components/productSection';
 

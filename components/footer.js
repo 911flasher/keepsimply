@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Contacts from './contacts';
 import {
   FaFacebookF,
   FaTwitter,
@@ -21,64 +22,20 @@ export default function Fotter() {
           <Link href="/">
             <a>Shop</a>
           </Link>
-          <Link href="/">
-            <a>Journal</a>
-          </Link>
+          
           <Link href="/">
             <a>About</a>
           </Link>
-          <Link href="/">
+          <Link href="/contacts">
             <a>Contacts</a>
           </Link>
         </div>
 
         <div className="social-links">
-          <Link href="/">
-            <a>
-              <FaFacebookF color="#d8d8d8" size="18px" />
-            </a>
-          </Link>
-          <Link href="/">
-            <a>
-              <FaTwitter color="#d8d8d8" size="18px" />
-            </a>
-          </Link>
-          <Link href="/">
-            <a>
-              <FaInstagram color="#d8d8d8" size="18px" />
-            </a>
-          </Link>
-          <Link href="/">
-            <a>
-              <FaYoutube color="#d8d8d8" size="18px" />
-            </a>
-          </Link>
+          <Contacts/>
         </div>
       </div>
-      <div className="footer footer-bottom">
-        <div className="texts">
-          <p>© 2016. Quantum UI kit</p>
-          <p>Privacy Policy</p>
-          <p>Terms of Use</p>
-        </div>
-        <div className="payment-info">
-          <p className="text">Accepted payment methods</p>
-          <div className="payment-methods">
-            <div>
-              <FaCcVisa color="#424242" size="32px" />
-            </div>
-            <div>
-              <FaCcMastercard color="#424242" size="32px" />
-            </div>
-            <div>
-              <FaCcPaypal color="#424242" size="32px" />
-            </div>
-            <div>
-              <FaCcAmazonPay color="#424242" size="32px" />
-            </div>
-          </div>
-        </div>
-      </div>
+      
 
       <style jsx>{`
         footer {

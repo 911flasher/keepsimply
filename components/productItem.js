@@ -27,24 +27,16 @@ export default function ProductSection({ id, name, rating, img_url, price }) {
         <a className="product-name">{name}</a>
       </Link>
 
-      <div className="rating">
-        <StarRatings
-          rating={parseFloat(rating)}
-          starRatedColor="#F9AD3D"
-          numberOfStars={5}
-          name="rating"
-          starDimension="20px"
-          starSpacing="1px"
-        />
-      </div>
+      
 
       <div className="price">
-        <p className="price-value">${price}</p>
+        <p className="price-value">UAN{" "+price}</p>
         
       </div>
 
       <style jsx>{`
         article {
+          
           display: flex;
           align-items: center;
           flex-direction: column;
@@ -67,6 +59,7 @@ export default function ProductSection({ id, name, rating, img_url, price }) {
           outline: none;
         }
         .product-img-box {
+          cursor: pointer;
           margin-bottom: 28px;
         }
         .product-img {

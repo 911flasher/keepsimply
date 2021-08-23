@@ -1,6 +1,6 @@
 import AsideCategories from './asideCategories';
 import PromoCard from './promoCard';
-import HeaderBarProducts from './headerBarProducts';
+
 import Products from './products';
 
 export default function ProductSection({ category }) {

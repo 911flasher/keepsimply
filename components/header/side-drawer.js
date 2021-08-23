@@ -1,41 +1,24 @@
 import Link from 'next/link';
 
-import SearchBox from '../search-box';
 
 
-export default function SideDrawer({ closeDrawer }) {
+
+export default function SideDrawer({ Setopen, open }) {
  
 
   return (
     <div
-      className={`side-drawer hide`}
-      id="side-drawer"
+    className="side-drawer"
+      
+      style={{transform: open}}
     >
-      <button className="close-drawer" onClick={closeDrawer}>
+      <button className="close-drawer" onClick={() => Setopen("translateX(-100%)")}>
         X
       </button>
 
-      <div className="search">
-        <SearchBox />
-      </div>
+      
 
-      <ul className="items">
-        <li id="home" className="item">
-          <Link href="/cart">
-            <a>Items</a>
-          </Link>
-        </li>
-        <li id="about" className="item">
-          <Link href="/wishlist">
-            <a>Wishlist</a>
-          </Link>
-        </li>
-        <li id="contact" className="item">
-          <Link href="/user/login">
-            <a>Sign In</a>
-          </Link>
-        </li>
-      </ul>
+      
 
       <style jsx>{`
         .side-drawer {
@@ -45,7 +28,7 @@ export default function SideDrawer({ closeDrawer }) {
           z-index: 999;
           top: 0;
           left: 0;
-          width: 80%;
+          width: 100%;
           height: 100vh;
           background: #fff;
           box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);

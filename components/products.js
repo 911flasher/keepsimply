@@ -10,7 +10,7 @@ export default function Products({ category }) {
   
 
   // Offline data
-  console.log(category)
+  
     return (
       <ProductsGrid>
         {keys(offlineProducts).map((product) => (category?category===offlineProducts[product].categories?
@@ -19,7 +19,7 @@ export default function Products({ category }) {
             id={offlineProducts[product].id}
             name={offlineProducts[product].name}
             rating={offlineProducts[product].rating}
-            img_url={offlineProducts[product].img_url}
+            img_url={offlineProducts[product].img_url[keys(offlineProducts[product].img_url)[0]]}
             price={offlineProducts[product].price}
             
           />:<></>:
@@ -28,7 +28,7 @@ export default function Products({ category }) {
             id={offlineProducts[product].id}
             name={offlineProducts[product].name}
             rating={offlineProducts[product].rating}
-            img_url={offlineProducts[product].img_url}
+            img_url={offlineProducts[product].img_url[keys(offlineProducts[product].img_url)[0]]}
             price={offlineProducts[product].price}
             
           />

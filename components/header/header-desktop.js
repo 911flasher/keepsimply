@@ -1,16 +1,11 @@
 
 import Link from 'next/link';
-import {
-  FaShoppingCart,
-  FaRegHeart,
-  FaUser,
-  FaSignOutAlt,
-  FaBars,
-} from 'react-icons/fa';
+
 
 
 import Logo from '../logo';
 import SearchBox from '../search-box';
+import Contacts from '../contacts';
 
 export default function HeaderDesktop({ viewer }) {
   
@@ -20,7 +15,7 @@ export default function HeaderDesktop({ viewer }) {
       <div className="header header-top">
         <Logo />
 
-        <SearchBox />
+        <Contacts />
 
         
       </div>

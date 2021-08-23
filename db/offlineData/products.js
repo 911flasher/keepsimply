@@ -1,44 +1,143 @@
 const offlineProducts = {
   
-  13:{
-    id: 13,
-    name: 'Bluetooth Speakers, DOSS SoundBox Plus',
-    description:
-      'Bluetooth Speakers, DOSS SoundBox Plus Portable Wireless Bluetooth Speaker with 16W HD Sound and Deep Bass, Wireless Stereo Pairing, 20H Playtime, Wireless Speaker for Home, Outdoor, Travel - Black',
-    img_url: '/products/1.jpg',
-    price: 39.99,
-    rating: 3.7,
+  
+  0:{
+    id: 0,
+    name: 'Умный замок невидимка SEVEN LOCK SL-7709',
+    description:"принципиально новый и улучшенный вид скрытых замков на рынке, который уже давно используется в Европе и США. Это электронное накладное устройство с пультом, которое совершенно не видно с наружной стороны двери. Красивый дизайн идеально впишется в любой интерьер вашего дома. Подробнее: https://seven-systems.com.ua/p797925049-umnyj-zamok-seven.html",
+    img_url:{
+      0:'/products/0/1.jpg',
+      1:'/products/0/2.jpg',
+      2:'/products/0/3.jpg',
+      3:'/products/0/4.jpg',
+      4:'/products/0/5.jpg'
+    },
+    price: "3 700",
     created_at: Date.now(),
     updated_at: Date.now(),
-    user_id: 1,
-    categories:"speaker"
+    categories:'"Умные замки" (невидимки)',
+    about:{
+      0:{
+        name:"Основные",
+        info:{
+          0:{
+            name:"Производитель",
+            type:"SEVEN Lock"
+          },
+          1:{
+            name:"Страна производитель",
+            type:"Южная Корея"
+          },
+          2:{
+            name:"Класс защиты замка",
+            type:"4"
+          },
+          3:{
+            name:"Открытие блока",
+            type:"Универсальное"
+          },
+          4:{
+            name:"Цвет замка",
+            type:"Серый матовый"
+          },
+          5:{
+            name:"Открытие устройства",
+            type:"С мобильного телефона, Радиобрелком "
+          },
+          6:{
+            name:"Управление устройством",
+            type:"Радиобрелок, Мобильный телефон (опционально), СКУД (опционально)"
+          },
+          7:{
+            name:"Интерфейс",
+            type:"Беспроводной"
+          },
+          8:{
+            name:"Тип установки замка",
+            type:"Накладной"
+          }
+        }
+      },
+      1:{
+        name:"Дополнительные",
+        info:{
+          0:{
+            name:"Индикация открытия/закрытия",
+            type:"Звуковая/Световая"
+          }
+        }
+      },
+      2:{
+        name:"Комплектация",
+        info:{
+          0:{
+            name:"Корпус замка",
+            type:"Да"
+          },
+          1:{
+            name:"Радиобрелок",
+            type:"2"
+          },
+          2:{
+            name:"Ответная планка",
+            type:"1"
+          },
+          3:{
+            name:"Крепежный комплект",
+            type:"Да"
+          },
+          4:{
+            name:"Инструкция по установке/эксплуатации",
+            type:"Да"
+          },
+          5:{
+            name:"Батарейки",
+            type:"АА"
+          },
+          
+        }
+      },
+      3:{
+        name:"Общие",
+        info:{
+          0:{
+            name:"Питание",
+            type:"Батарейки одноразовые"
+          },
+          1:{
+            name:"Контроль разряда",
+            type:"Да"
+          },
+          2:{
+            name:"Максимальная рабочая температура",
+            type:"60 град."
+          },
+          3:{
+            name:"Длина",
+            type:"149 мм"
+          },
+          4:{
+            name:"Ширина",
+            type:"80 мм"
+          },
+          5:{
+            name:"Высота",
+            type:"32 мм"
+          },
+          6:{
+            name:"Вес",
+            type:"1 кг"
+          },
+          7:{
+            name:"Гарантийный срок",
+            type:"12 мес"
+          },
+          
+        }
+      },
+    }
   },
-  1:{
-    id: 1,
-    name: 'Bluetooth Speakers, DOSS SoundBox Plus',
-    description:
-      'Bluetooth Speakers, DOSS SoundBox Plus Portable Wireless Bluetooth Speaker with 16W HD Sound and Deep Bass, Wireless Stereo Pairing, 20H Playtime, Wireless Speaker for Home, Outdoor, Travel - Black',
-    img_url: '/products/1.jpg',
-    price: 39.99,
-    rating: 3.7,
-    created_at: Date.now(),
-    updated_at: Date.now(),
-    user_id: 1,
-    categories:"speaker"
-  },
-  24:{
-    id: 24,
-    name: 'Bluetooth Speakers, DOSS SoundBox Plus',
-    description:
-      'Bluetooth Speakers, DOSS SoundBox Plus Portable Wireless Bluetooth Speaker with 16W HD Sound and Deep Bass, Wireless Stereo Pairing, 20H Playtime, Wireless Speaker for Home, Outdoor, Travel - Black',
-    img_url: '/products/1.jpg',
-    price: 39.99,
-    rating: 3.7,
-    created_at: Date.now(),
-    updated_at: Date.now(),
-    user_id: 1,
-    categories:"speaker"
-  },
+  
 };
 
 export default offlineProducts;

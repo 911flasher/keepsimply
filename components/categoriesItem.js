@@ -11,6 +11,7 @@ import {
   MdVideogameAsset,
   MdWatch,
   MdKeyboardArrowRight,
+  MdLock
 } from 'react-icons/md';
 const iconSlugs = {
   MdDesktopWindows,
@@ -23,6 +24,7 @@ const iconSlugs = {
   MdTv,
   MdVideogameAsset,
   MdWatch,
+  MdLock
 };
 
 export default function   CategoriesItem({ category }) {
