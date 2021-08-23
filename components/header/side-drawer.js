@@ -1,8 +1,8 @@
 import Link from 'next/link';
 
-
-
-
+import offlineCategories from "../../db/offlineData//categories";
+import CategoriesItem from '../categoriesItem';
+import {keys} from "lodash"
 export default function SideDrawer({ Setopen, open }) {
  
 
@@ -16,7 +16,9 @@ export default function SideDrawer({ Setopen, open }) {
         X
       </button>
 
-      
+      {keys(offlineCategories).map((id) => {
+          return <CategoriesItem key={id} category={offlineCategories[id]} />;
+        })}
 
       
 
