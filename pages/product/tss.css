@@ -2,15 +2,17 @@
   .about{
       width:100%;
       cursor: pointer;
-      
+      height: 40px;
       background: none;
       box-shadow: none;
       box-sizing: border-box;
       border-radius: 6px;
       margin-top: 24px;
       display: flex;
+      cursor: pointer;
+      color: darkgray;
+      border-radius: 6px;
       flex-direction: column;
-      
     }
     .Maintitle{
       margin:auto;
@@ -20,6 +22,7 @@
     .title{
       display: flex;
       align-items: center;
+      justify-content: center;
       min-height: 40px;
       width:100%;
       border-bottom: 0.5px solid #919191;
