@@ -10,10 +10,14 @@ exports.modules = {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": function() { return /* binding */ App; }
+/* harmony export */   "default": function() { return /* binding */ MyApp; }
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5282);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6731);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(9297);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -23,12 +27,40 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
-function App({
+
+
+
+function MyApp({
   Component,
   pageProps
 }) {
+  const router = (0,next_router__WEBPACK_IMPORTED_MODULE_1__.useRouter)();
+  if (router.pathname === '/404' && router.asPath !== '/404') (0,react__WEBPACK_IMPORTED_MODULE_2__.useEffect)(() => {
+    next_router__WEBPACK_IMPORTED_MODULE_1___default().push({
+      pathname: router.asPath
+    }, undefined, {
+      shallow: true
+    });
+  }, []);
+  console.log(router);
   return /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(Component, _objectSpread({}, pageProps));
 }
+
+/***/ }),
+
+/***/ 6731:
+/***/ (function(module) {
+
+"use strict";
+module.exports = require("next/router");;
+
+/***/ }),
+
+/***/ 9297:
+/***/ (function(module) {
+
+"use strict";
+module.exports = require("react");;
 
 /***/ }),
 

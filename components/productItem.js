@@ -1,16 +1,9 @@
 
 import Link from 'next/link';
-import {
-  FaCartArrowDown,
-  FaCartPlus,
-  FaRegHeart,
-  FaHeart,
-} from 'react-icons/fa';
-import StarRatings from 'react-star-ratings';
-import { toggleCart, toggleWishlist } from '../utils/toggleProductStates';
 
 
-export default function ProductSection({ id, name, rating, img_url, price }) {
+
+export default function ProductSection({ id, name, img_url, price }) {
   
 
   return (
@@ -18,7 +11,7 @@ export default function ProductSection({ id, name, rating, img_url, price }) {
       
 
       <div className="product-img-box">
-        <Link href={`/product/${id}`}>
+        <Link href={`/product/${id}`} >
           <img className="product-img" src={img_url} />
         </Link>
       </div>

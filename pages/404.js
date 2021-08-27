@@ -1,12 +1,13 @@
-
 import Page from '../components/page';
-import AllContacts from '../components/allcontacts';
+
 
 export default function Index() {
+    
+    
   return (
     <Page>
       
-      <AllContacts />
+      404: This page could not be found
     </Page>
-  );
+ );
 }

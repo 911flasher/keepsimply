@@ -1,12 +1,11 @@
 {
+  "/404": "pages/404.html",
   "/_app": "pages/_app.js",
-  "/api/graphql": "pages/api/graphql.js",
+  "/api": "pages/api.js",
   "/category/[category]": "pages/category/[category].html",
-  "/checkout": "pages/checkout.html",
   "/contacts": "pages/contacts.html",
   "/": "pages/index.html",
   "/product/[id]": "pages/product/[id].html",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/404": "pages/404.html"
+  "/_document": "pages/_document.js"
 }
