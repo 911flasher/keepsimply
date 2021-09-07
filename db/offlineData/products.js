@@ -9,11 +9,11 @@ const offlineProducts = {
     name: 'Умный замок невидимка SEVEN LOCK SL-7709',
     description:"принципиально новый и улучшенный вид скрытых замков на рынке, который уже давно используется в Европе и США. Это электронное накладное устройство с пультом, которое совершенно не видно с наружной стороны двери. Красивый дизайн идеально впишется в любой интерьер вашего дома.",
     img_url:{
-      0:'/products/0/1.jpg',
-      1:'/products/0/2.jpg',
-      2:'/products/0/3.jpg',
-      3:'/products/0/4.jpg',
-      4:'/products/0/5.jpg'
+      0:'/static/products/0/1.jpg',
+      1:'/static/products/0/2.jpg',
+      2:'/static/products/0/3.jpg',
+      3:'/static/products/0/4.jpg',
+      4:'/static/products/0/5.jpg'
     },
     price: "3 700",
     created_at: Date.now(),
@@ -151,7 +151,7 @@ const offlineProducts = {
         Есть возможность интеграции с Умным домом SEVEN HOME, сигнализациями Ajax, Дунай и другими системами (опционально).
       </p>
       <div style={{display:"flex",justifyContent:"center"}}>
-        <img src="/products/0/detimg0.jpg" style={{margin:"auto", width:"100%", maxWidth:"400px"}}/>
+        <img src="/static/products/0/detimg0.jpg" style={{margin:"auto", width:"100%", maxWidth:"400px"}}/>
       </div>
        <h1 style={{color:"#666666"}}>Умный беспроводной замок невидимка SEVEN LOCK SL-7709 является универсальным:</h1>
       <br/>
@@ -341,11 +341,11 @@ const offlineProducts = {
     name: 'Набор радиобрелка 2 шт SEVEN LOCK SR-7714 ',
     description:"Предназначен для управления Умным замком SEVEN LOCK SL-7709 и SL-7707. На корпусе расположены 2 кнопки - открытие и закрытие. ",
     img_url:{
-      0:'/products/1/1.jpg',
-      1:'/products/1/2.jpg',
-      2:'/products/1/3.jpg',
-      3:'/products/1/4.jpg',
-      4:'/products/1/5.jpg'
+      0:'/static/products/1/1.jpg',
+      1:'/static/products/1/2.jpg',
+      2:'/static/products/1/3.jpg',
+      3:'/static/products/1/4.jpg',
+      4:'/static/products/1/5.jpg'
     },
     price: "600",
     created_at: Date.now(),
@@ -459,11 +459,11 @@ const offlineProducts = {
     name: 'Набор радиобрелка 2 шт SEVEN LOCK SR-7714 ',
     description:"Предназначен для управления Умным замком SEVEN LOCK SL-7709 и SL-7707. На корпусе расположены 2 кнопки - открытие и закрытие. ",
     img_url:{
-      0:'/products/1/1.jpg',
-      1:'/products/1/2.jpg',
-      2:'/products/1/3.jpg',
-      3:'/products/1/4.jpg',
-      4:'/products/1/5.jpg'
+      0:'/static/products/1/1.jpg',
+      1:'/static/products/1/2.jpg',
+      2:'/static/products/1/3.jpg',
+      3:'/static/products/1/4.jpg',
+      4:'/static/products/1/5.jpg'
     },
     price: "600",
     created_at: Date.now(),
@@ -576,11 +576,11 @@ const offlineProducts = {
     name: 'Радиобрелок SEVEN LOCK SR-7714',
     description:"Предназначен для управления Умным замком SEVEN LOCK SL-7709 и SL-7707. На корпусе расположены 2 кнопки - открытие и закрытие. ",
     img_url:{
-      0:'/products/2/2.jpg',
-      1:'/products/2/3.jpg',
-      2:'/products/2/4.jpg',
-      3:'/products/2/5.jpg',
-      4:'/products/2/6.jpg'
+      0:'/static/products/2/2.jpg',
+      1:'/static/products/2/3.jpg',
+      2:'/static/products/2/4.jpg',
+      3:'/static/products/2/5.jpg',
+      4:'/static/products/2/6.jpg'
     },
     price: "320",
     created_at: Date.now(),
@@ -693,7 +693,7 @@ const offlineProducts = {
     name: 'Радиобрелок SEVEN LOCK SR-7714',
     description:"Модуль управления замком. Подходит для управления замком SEVEN LOCK SL-7709/SL-7707/SL-7708/SL-7704 по Bluetooth и Wi-Fi (опционально).",
     img_url:{
-      0:'/products/3/1.jpg',
+      0:'/static/products/3/1.jpg',
       
     },
     price: "847",
@@ -780,10 +780,10 @@ const offlineProducts = {
     name: 'Биометрическая беспроводная клавиатура со встроенным считывателем SEVEN LOCK SK-7717 ',
     description:"беспроводной контроллер - клавиатуры SK-7717 со встроенным считывателем отпечатков пальцев для Умных замков SEVEN LOCK SL-7707 и SL-7709. ",
     img_url:{
-      0:'/products/4/1.jpg',
-      1:'/products/4/2.jpg',
-      2:'/products/4/3.jpg',
-      3:'/products/4/4.jpg',
+      0:'/static/products/4/1.jpg',
+      1:'/static/products/4/2.jpg',
+      2:'/static/products/4/3.jpg',
+      3:'/static/products/4/4.jpg',
       
     },
     price: "1600",
@@ -880,9 +880,9 @@ const offlineProducts = {
     name: 'Беспроводная клавиатура со встроенным считывателем SEVEN LOCK SK-7712b',
     description:"контроллер - клавиатуры SK-7717 для Умных замков SEVEN LOCK SL-7707 и SL-7709. ",
     img_url:{
-      0:'/products/5/1.jpg',
-      1:'/products/5/2.jpg',
-      2:'/products/5/3.jpg',
+      0:'/static/products/5/1.jpg',
+      1:'/static/products/5/2.jpg',
+      2:'/static/products/5/3.jpg',
       
       
     },
@@ -1016,9 +1016,9 @@ const offlineProducts = {
     name: 'Беспроводная клавиатура со встроенным считывателем SEVEN LOCK SK-7712b',
     description:"беспроводной контроллер - клавиатуры SK-7717 для Умных замков SEVEN LOCK SL-7707 и SL-7709. ",
     img_url:{
-      0:'/products/6/1.jpg',
-      1:'/products/6/2.jpg',
-      2:'/products/6/3.jpg',
+      0:'/static/products/6/1.jpg',
+      1:'/static/products/6/2.jpg',
+      2:'/static/products/6/3.jpg',
       
       
     },
@@ -1152,8 +1152,8 @@ const offlineProducts = {
     name: 'Модуль интеграции SEVEN LOCK m-7711wi',
     description:"SEVEN Lock m-7717wi - это проводной модуль интеграции с умным домом, сигнализациями Ajax, Дунай и другими системами. ",
     img_url:{
-      0:'/products/7/1.jpg',
-      1:'/products/7/2.jpg',
+      0:'/static/products/7/1.jpg',
+      1:'/static/products/7/2.jpg',
       
       
       
@@ -1270,8 +1270,8 @@ const offlineProducts = {
     name: 'Беспроводная кнопка SEVEN LOCK SB-7711b ',
     description:"SEVEN Lock m-7717b - это проводной модуль интеграции с умным домом, сигнализациями Ajax, Дунай и другими системами. ",
     img_url:{
-      0:'/products/8/1.jpg',
-      1:'/products/8/2.jpg',
+      0:'/static/products/8/1.jpg',
+      1:'/static/products/8/2.jpg',
       
       
       
@@ -1388,8 +1388,8 @@ const offlineProducts = {
     name: 'Беспроводная кнопка SEVEN LOCK SB-7711w',
     description:"Беспроводная кнопка SEVEN SB-7711b с защитой от перехвата для Умного замка SEVEN Lock SL-7707 и SEVEN Lock SL-7709.",
      img_url:{
-      0:'/products/9/1.jpg',
-      1:'/products/9/2.jpg',
+      0:'/static/products/9/1.jpg',
+      1:'/static/products/9/2.jpg',
       
       
       
@@ -1507,11 +1507,11 @@ const offlineProducts = {
     name: 'Комплект сигнализации Ajax с замком SEVEN LOCK для дома',
     description:"Все датчики Ajax обмениваются данными с централью Ajax Hub по зашифрованному радиопротоколу Jeweller. Радиус работы системы может достигать 2000 метров на открытом пространстве, что позволяет установить датчики на нескольких этажах дома или бизнес-центра.",
       img_url:{
-      0:'/products/10/1.jpg',
-      1:'/products/10/2.jpg',
-      2:'/products/10/3.jpg',
-      3:'/products/10/4.jpg',
-      4:'/products/10/5.jpg',
+      0:'/static/products/10/1.jpg',
+      1:'/static/products/10/2.jpg',
+      2:'/static/products/10/3.jpg',
+      3:'/static/products/10/4.jpg',
+      4:'/static/products/10/5.jpg',
       
       
       
@@ -1650,7 +1650,7 @@ const offlineProducts = {
       <li>Беспроводная технология Jeweller позволяет раскинуть сеть на расстоянии до 2000 метров на открытом пространстве или на нескольких этажах бизнес-центра;</li>
       <li>УВремя работы на резервном питании достигает 10 часов.</li>
       <div style={{display:"flex", justifyContent:"center"}}>
-        <img src="/products/10/img1.jpg" style={{margin:"auto", width:"100%", maxWidth:"400px"}}/>
+        <img src="/static/products/10/img1.jpg" style={{margin:"auto", width:"100%", maxWidth:"400px"}}/>
       </div>
       
       <style jsx>
@@ -1682,11 +1682,11 @@ const offlineProducts = {
     name: 'Комплект сигнализации Ajax с замком SEVEN LOCK для дома',
     description:"беспроводной контроллер - клавиатуры SK-7713 со встроенным считывателем для Умных замков SEVEN LOCK SL-7707 и SL-7709.",
     img_url:{
-      0:'/products/11/1.jpg',
-      1:'/products/11/2.jpg',
-      2:'/products/11/3.jpg',
-      3:'/products/11/4.jpg',
-      4:'/products/11/5.jpg',
+      0:'/static/products/11/1.jpg',
+      1:'/static/products/11/2.jpg',
+      2:'/static/products/11/3.jpg',
+      3:'/static/products/11/4.jpg',
+      4:'/static/products/11/5.jpg',
       
       
       
@@ -1836,11 +1836,11 @@ const offlineProducts = {
     name: 'Умный замок SEVEN Lock SL-7707',
     description:"принципиально новый и улучшенный вид скрытых замков на рынке, который уже давно используется в Европе и США. Это электронное накладное устройство с пультом, которое совершенно не видно с наружной стороны двери. Красивый дизайн идеально впишется в любой интерьер вашего дома.",
     img_url:{
-      0:'/products/12/1.jpg',
-      1:'/products/12/2.jpg',
-      2:'/products/12/3.jpg',
-      3:'/products/12/4.jpg',
-      4:'/products/12/5.jpg'
+      0:'/static/products/12/1.jpg',
+      1:'/static/products/12/2.jpg',
+      2:'/static/products/12/3.jpg',
+      3:'/static/products/12/4.jpg',
+      4:'/static/products/12/5.jpg'
     },
     price: "4 777",
     created_at: Date.now(),
@@ -1972,7 +1972,7 @@ const offlineProducts = {
       <br/>
       <Link href="/product/0">
       <div style={{display:"flex",justifyContent:"center"}}>
-        <img src="/products/12/img1.jpg" style={{margin:"auto", width:"100%", maxWidth:"200px"}}/>
+        <img src="/static/products/12/img1.jpg" style={{margin:"auto", width:"100%", maxWidth:"200px"}}/>
       </div>
       </Link>
       

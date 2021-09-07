@@ -1,7 +1,7 @@
 const offlineContact = {
     number:{
-        0:"+380XXXXXXXXX",
-        1:"+380XXXXXXXXX"
+        0:" https://www.instagram.com/kupibest/",
+        1:"+380937877776 "
     },
     
   };

@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import  Router  from 'next/router';
 
 
+
 export default function MyApp({ Component, pageProps}) {
   
   const router = useRouter()
@@ -16,7 +17,7 @@ export default function MyApp({ Component, pageProps}) {
             
          }, undefined, { shallow: true})
     },[])
-    console.log(router)
+
   
   
   return (
