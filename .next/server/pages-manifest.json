@@ -1,7 +1,11 @@
 {
+  "/404": "pages/404.html",
   "/_app": "pages/_app.js",
+  "/api": "pages/api.js",
+  "/category/[category]": "pages/category/[category].html",
+  "/contacts": "pages/contacts.html",
+  "/": "pages/index.html",
+  "/product/[id]": "pages/product/[id].html",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/contacts": "pages/contacts.js",
-  "/product/[id]": "pages/product/[id].js"
+  "/_document": "pages/_document.js"
 }

@@ -1,8 +1,21 @@
+const isProd = process.env.NODE_ENV === 'production'
+
 module.exports = {
-  target: 'serverless',
-  webpack: function (config) {
-    config.module.rules.push({test:  /\.md$/, use: 'raw-loader'})
-    config.module.rules.push({test: /\.yml$/, use: 'raw-loader'})
+  // Use the CDN in production and localhost for development.
+  assetPrefix: isProd ? 'http://192.168.0.103:8080/' : '',
+  distDir: 'build',
+  webpack: (config, options) => {
+    config.module.rules.push({
+      test: /\.mdx/,
+      use: [
+        options.defaultLoaders.babel,
+        {
+          loader: '@mdx-js/loader',
+         
+        },
+      ],
+    })
+
     return config
-  }
+  },
 }

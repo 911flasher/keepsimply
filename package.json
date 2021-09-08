@@ -5,6 +5,7 @@
   "scripts": {
     "build": "next build",
     "start": "next  build && next start",
+    "serverstart":"SET NODE_ENV=production node server.js",
     "knex:migrate": "knex migrate:latest",
     "knex:seed": "knex seed:run",
     "prod": "next  build && next export",
