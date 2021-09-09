@@ -2188,6 +2188,850 @@ const offlineProducts = {
   
   
   },
+  13:{
+    id: 13,
+    name: 'Бесконтактный комплект контроля доступа с управлением по Bluetooth SEVEN KA-7812',
+    description:"Главной особенностью этого набора вы можете заходить и выходить из помещения, просто нажав одну кнопку на смартфоне, не прикасаясь ни к контроллеру, ни к кнопке выхода, что очень важно в период пандемии коронавируса.",
+    img_url:{
+      0:'/static/products/13/1.jpg',
+      1:'/static/products/13/2.jpg',
+      2:'/static/products/13/3.jpg',
+      3:'/static/products/13/4.jpg',
+      4:'/static/products/13/5.jpg'
+    },
+    price: "2 996",
+    created_at: Date.now(),
+    updated_at: Date.now(),
+    categories:'Комплекты контроля доступа',
+    about:{
+      0:{
+        name:"Основные",
+        info:{
+          0:{
+            name:"Производитель",
+            type:"SEVEN Systems"
+          },
+          1:{
+            name:"Страна производитель",
+            type:"	Украина"
+          },
+        }
+      },
+      1:{
+        name:"Общие",
+        info:{
+          0:{
+            name:"Гарантийный срок",
+            type:"24 мес"
+          }
+        }
+      },
+      
+      
+    },
+    detaildescription:
+    <div style={{width:"100%",color:"#666666"}} key="detaildescription0">
+      <p style={{fontSize:"20px", marginTop:"20px"}}>Назначение бесконтактного набора контроля доступа с магнитным замком SEVEN KA-7812</p>
+      <br/>
+      <p>Главной особенностью этого набора вы можете заходить и выходить из помещения, просто нажав одну кнопку на смартфоне, не прикасаясь ни к контроллеру, ни к кнопке выхода, что очень важно в период пандемии коронавируса.</p>
+      
+      <br/> 
+      <p>
+      Контроллер, используемый в данном комплекте СКУД, управляется и настраивается по Bluetooth. Контроль доступа осуществляется при помощи телефона через мобильное приложение либо бесконтактных карт, брелков или пин-кода. Через ваш смартфон вы управляете: открытие/закрытие, просмотр информации о том, кто и в какое время входил, предоставление временного или постоянного допуска на вход. Также опционально можно управлять контроллером через Wi-Fi при помощи шлюза SEVEN LOCK.
+       </p> 
+      <br/>
+      <p style={{color:"#666666"}}>
+      Комплект контроля доступа NO TOUCH SEVEN KA-7812 предназначен для установки на тяжелую подъездную, складскую, тамбурную, офисную или любую металлическую дверь, где необходима высокая сила удержания.
+      </p>
+      
+       <br/>
+       <h1 style={{color:"#666666", fontSize:"20px"}}>Набор СКД SEVEN KA-7812 полностью укомплектован и готов к установке.</h1>
+      <br/>
+      <p style={{fontSize:"30px"}}>Комплектация набора системы контроля доступом SEVEN KA-7812:</p>
+      <br/>
+      
+      <div style={{display:"flex", }}>
+        <img style={{width:"250px"}} src="/static/products/13/d2.jpg"></img>
+        <div style={{display:"flex", flexDirection:"column", alignSelf:"center", marginLeft:"20px"}}>
+          <p style={{fontSize:"20px"}}>Контроллер со считывателем SEVEN CR-7470b</p>
+          <br/>
+          <p>Данная модель контроллера позволяет контролировать проход при помощи брелков, карт доступа или пин-кода. Основной особенностью является возможность управления по Bluetooth. Через мобильное приложение вы управляете: открытие/закрытие, просмотр информации о том, кто и в какое время входил, предоставление временного или постоянного допуска на вход.</p>
+          <br/>
+          <Link href="/product/14"><p style={{cursor:"pointer", color:"blue"}}>Подробнее по ссылке</p></Link>
+        </div>
+        
+      </div>
+      <div style={{display:"flex"}}>
+        <img style={{width:"250px"}} src="/static/products/13/d1.jpg"></img>
+        <div style={{display:"flex", flexDirection:"column", alignSelf:"center", marginLeft:"20px" }}>
+          <p style={{fontSize:"20px"}}>Замок электромагнитный SEVEN ML-7720</p>
+          <br/>
+          <p>Электромагнитный накладной замок с силой удержания 280 кг. Предназначен для тяжелых дверей, благодаря своей силе удержания замок можно поставить на бронированную, металлическую, деревянную или металлопластиковую дверь. Он будет надёжно фиксировать дверь в закрытом состоянии.</p>
+          <br/>
+          <Link href="/product/15"><p style={{cursor:"pointer", color:"blue"}}>Подробнее по ссылке</p></Link>
+          
+        </div>
+        
+      </div>
+      <div style={{display:"flex"}}>
+        <img style={{width:"250px"}} src="/static/products/13/d3.jpg"></img>
+        <div style={{display:"flex", flexDirection:"column", alignSelf:"center", marginLeft:"20px" }}>
+          <p style={{fontSize:"20px"}}>Кнопка выхода бесконтактная металлическая SEVEN K-7497ND</p>
+          <br/>
+          <p>Кнопка выхода бесконтактная, что означает, что к ней не надо прикасаться для того, чтобы выйти, необходимо просто приблизить руку на расстояние до 30 см. Выполнена в металлическом корпусе, подходит для установки внутри помещений.</p>
+          <br/>
+          <Link href="/product/16"><p style={{cursor:"pointer", color:"blue"}}>Подробнее по ссылке</p></Link>
+        </div>
+        
+      </div>
+      <div style={{display:"flex"}}>
+        <img style={{width:"250px"}} src="/static/products/13/d4.jpg"></img>
+        <div style={{display:"flex", flexDirection:"column", alignSelf:"center", marginLeft:"20px" }}>
+          <p style={{fontSize:"20px"}}>Блок питания 12В/2А SEVEN PS-760W</p>
+          <br/>
+          <p>Импульсный источник питания, адаптерного типа (закрытого) 12В/2А с вилкой в розетку.</p>
+        </div>
+        
+      </div>
+      <div style={{display:"flex"}}>
+        <img style={{width:"250px"}} src="/static/products/13/d5.jpg"></img>
+        <div style={{display:"flex", flexDirection:"column", alignSelf:"center", marginLeft:"20px" }}>
+          <p style={{fontSize:"20px"}}>Разъем-power SEVEN С-742</p>
+          <br/>
+          <p>Разъем питания универсальный "мама" 5.5*2,1.</p>
+        </div>
+        
+      </div>
+      <div style={{display:"flex"}}>
+        <img style={{width:"250px"}} src="/static/products/13/d6.jpg"></img>
+        <div style={{display:"flex", flexDirection:"column", alignSelf:"center", marginLeft:"20px" }}>
+          <p style={{fontSize:"20px"}}>В подарок набор ключей доступа из 5 шт (карты или брелки)</p>
+          <br/>
+          <p>Бесконтактные ключи стандарта MIFARE работают в частотном диапазоне 13.56 МГц. Срабатывают на расстоянии до 7 см. Основным преимуществом перед другими ключами является шифрование передаваемых данных и встроенная перезаписываемая память объемом 1024 байт.</p>
+          <br/>
+          <Link href="/product/17"><p style={{cursor:"pointer", color:"blue"}}>Подробнее по ссылке</p></Link>
+        </div>
+        
+      </div>
+      <style jsx>
+        {
+          `
+          .tbody{
+              display: flex;
+              width:100%;
+              flex-direction: column;
+            }
+            .tr{
+              display: flex;
+              min-height: 40px;
+            }
+            .td{
+              word-wrap: break-word;
+              border:1px solid black;
+              display: flex;
+              padding-left:5px;
+              padding-top:10px;
+              padding-bottom:10px;
+              justify-content: center;
+              flex-direction: column;
+              width:50%;
+            }
+            iframe{
+              width:560px;
+              height:315px;
+            }
+            @media (max-width: 1000px){
+              iframe{
+                width:100%;
+                height:315px;
+              }
+              .td{
+                word-wrap: break-word;
+                border:1px solid black;
+                display: flex;
+                padding-left:0px;
+                padding-top:0px;
+                padding-bottom:0px;
+                justify-content: center;
+                flex-direction: column;
+                width:50%;
+              }
+            }
+          `
+        }
+      </style>
+    </div>
+    
+
+  
+  
+  },
+  14:{
+    id: 14,
+    name: 'Контроллер доступа Bluetooth с клавиатурой SEVEN CR-7470b MIFARE',
+    description:"это автономный, влагозащищенный, металлический, рассчитанный на установку вне помещений контроллер со считывателем c управлением и настройкой через Bluetooth для работы в системах контроля доступа.",
+    img_url:{
+      0:'/static/products/14/1.jpg',
+      1:'/static/products/14/2.jpg',
+      2:'/static/products/14/3.jpg',
+      3:'/static/products/14/4.jpg',
+      4:'/static/products/14/5.jpg'
+    },
+    price: "1 944",
+    created_at: Date.now(),
+    updated_at: Date.now(),
+    categories:'Комплекты контроля доступа',
+    about:{
+      0:{
+        name:"Основные атрибуты",
+        info:{
+          0:{
+            name:"Производитель",
+            type:"SEVEN Systems"
+          },
+          1:{
+            name:"Страна производитель",
+            type:"Китай"
+          },
+          2:{
+            name:"Тип устройства",
+            type:"Контроллер"
+          },
+          3:{
+            name:"Управление",
+            type:"Локальное/Сетевое"
+          },
+          4:{
+            name:"Материал",
+            type:"Металл"
+          },
+          5:{
+            name:"Цвет",
+            type:"Черный"
+          },
+          6:{
+            name:"Интерфейс",
+            type:"Проводной/Беспроводной"
+          },
+          7:{
+            name:"Протокол связи",
+            type:"WiFi"
+          },
+          8:{
+            name:"Количество точек прохода",
+            type:"1"
+          },
+          9:{
+            name:"Количество шаблонов карт/ключей",
+            type:"20000"
+          },
+          10:{
+            name:"Индикация",
+            type:"Световая/Звуковая"
+          },
+        }
+      },
+      1:{
+        name:"Дополнительные",
+        info:{
+          0:{
+            name:"Кодонаборная панель",
+            type:"Да"
+          },
+          1:{
+            name:"Защита оборудования от воды и пыли IP",
+            type:"IP66"
+          }
+        }
+      },
+      2:{
+        name:"Общие",
+        info:{
+          0:{
+            name:"Напряжение",
+            type:"12 В"
+          },
+          1:{
+            name:"Длина",
+            type:"125 мм"
+          },
+          2:{
+            name:"Ширина",
+            type:"79 мм"
+          },
+          3:{
+            name:"Высота",
+            type:"15.5 мм"
+          },
+          4:{
+            name:"Гарантийный срок",
+            type:"12 мес"
+          }
+        }
+      },
+      
+    },
+    detaildescription:
+    <div style={{width:"100%",color:"#666666"}} key="detaildescription0">
+      <p style={{marginTop:"20px"}}>SEVEN CR-7470b - это автономный, влагозащищенный, металлический, рассчитанный на установку вне помещений контроллер со считывателем c управлением и настройкой через Bluetooth для работы в системах контроля доступа. </p>
+      <br/>
+      
+      <p style={{fontSize:"20px", marginTop:"20px"}}>Особенности металлического контроллера со считывателем MIFARE с клавиатурой Bluetooth SEVEN CR-7470b:</p>
+      
+      <br/> 
+      <li>Управление и настройка через Bluetooth (бесплатное мобильное приложение).</li>
+      <li>Управление и настройка через интернет (опционально).</li>
+      <li>Можно открывать из любой точки мира (опционально при помощи шлюза SEVEN LOCK).</li>
+      <li>Степень пыле- и влагозащиты IP66 (предназначен для наружной установки).</li>
+      <li>Поддерживаемый стандарт карт MIFARE.</li>
+      <li>20000 карт пользователей.</li>
+      <li>Режим звукового оповещения.</li>
+      <br/>
+      
+      <p style={{fontSize:"20px", marginTop:"20px"}}>Через Bluetooth контроллер СКУД SEVEN CR-7470b дистанционно можно:</p>
+      
+      <br/> 
+      <li>Открывать замок.</li>
+      <li>Настраивать контроллер.</li>
+      <li>Просматривать кто и в какое время входил.</li>
+      <li>Давать допуск на вход другим людям: постоянный, временный или циклический (например, запрограммировать на открытие в определенный промежуток времени (к примеру с 9.00-18.00) или только по понедельникам).</li>
+      <li>Предоставлять полное или частичное управление и настройку замка другим людям.</li>
+      
+      <br/>
+      
+      <p style={{fontSize:"20px", marginTop:"20px"}}>Габариты:</p>
+      
+      <br/> 
+      <li> 79*125*15.5 мм</li>
+      
+      <br/>
+      <p style={{fontSize:"20px", marginTop:"20px"}}>Схема подключения замков к контроллерам SEVEN Systems: </p>
+      
+      <br/> 
+      <div style={{display:"flex",justifyContent:"center"}}>
+        <img src="/static/products/14/d1.jpg" style={{margin:"auto", width:"100%", maxWidth:"600px"}}/>
+      </div>
+      
+      <style jsx>
+        {
+          `
+          .tbody{
+              display: flex;
+              width:100%;
+              flex-direction: column;
+            }
+            .tr{
+              display: flex;
+              min-height: 40px;
+            }
+            .td{
+              word-wrap: break-word;
+              border:1px solid black;
+              display: flex;
+              padding-left:5px;
+              padding-top:10px;
+              padding-bottom:10px;
+              justify-content: center;
+              flex-direction: column;
+              width:50%;
+            }
+            iframe{
+              width:560px;
+              height:315px;
+            }
+            @media (max-width: 1000px){
+              iframe{
+                width:100%;
+                height:315px;
+              }
+              .td{
+                word-wrap: break-word;
+                border:1px solid black;
+                display: flex;
+                padding-left:0px;
+                padding-top:0px;
+                padding-bottom:0px;
+                justify-content: center;
+                flex-direction: column;
+                width:50%;
+              }
+            }
+          `
+        }
+      </style>
+    </div>
+    
+
+  
+  
+  },
+  15:{
+    id: 15,
+    name: 'Замок электромагнитный 280 кг SEVEN ML-7720 ',
+    description:"электромагнитный накладной замок с силой удержания 280 кг. Предназначен для внутренней установки на металлическую, пластиковую или деревянную дверь (с использованием уголка SEVEN  LB-7721). Он будет надёжно фиксировать дверь в закрытом состоянии. ",
+    img_url:{
+      0:'/static/products/15/1.jpg',
+      1:'/static/products/15/2.jpg',
+      
+    },
+    price: "594",
+    created_at: Date.now(),
+    updated_at: Date.now(),
+    categories:'Комплекты контроля доступа',
+    about:{
+      0:{
+        name:"Основные",
+        info:{
+          0:{
+            name:"Производитель",
+            type:"SEVEN Systems"
+          },
+          1:{
+            name:"Страна производитель",
+            type:"Китай"
+          },
+          2:{
+            name:"Сила удержания",
+            type:"280 кг"
+          },
+         
+        }
+      },
+      1:{
+        name:"Дополнительные",
+        info:{
+          0:{
+            name:"Кодонаборная панель",
+            type:"Да"
+          },
+          1:{
+            name:"Защита оборудования от воды и пыли IP",
+            type:"IP66"
+          }
+        }
+      },
+      2:{
+        name:"Комплектация",
+        info:{
+          0:{
+            name:"Корпус замка",
+            type:"Да"
+          },
+          1:{
+            name:"Ответная планка",
+            type:"1"
+          },
+          2:{
+            name:"Крепежный комплект",
+            type:"Да"
+          },
+          3:{
+            name:"Инструкция по установке/эксплуатации ",
+            type:"Да"
+          },
+          
+        }
+      },
+      3:{
+        name:"Общие",
+        info:{
+          0:{
+            name:"Питание",
+            type:"Сеть 12В"
+          },
+          1:{
+            name:"Дополнительный источник питания ",
+            type:"Сеть 24В"
+          },
+          2:{
+            name:"Длина",
+            type:"250 мм"
+          },
+          3:{
+            name:"Ширина",
+            type:"46 мм"
+          },
+          4:{
+            name:"Высота",
+            type:"25 мм"
+          },
+          5:{
+            name:"Гарантийный срок",
+            type:"12 мес"
+          }
+        }
+      },
+      
+    },
+    detaildescription:
+    <div style={{width:"100%",color:"#666666"}} key="detaildescription0">
+      <p style={{marginTop:"20px",fontSize:"20px",}}>Особенности электромагнитного замка 280 кг SEVEN ML-7720: </p>
+      <br/>
+      
+      <p>SEVEN ML-7720 - электромагнитный накладной замок с силой удержания 280 кг. Предназначен для внутренней установки на металлическую, пластиковую или деревянную дверь (с использованием уголка SEVEN  LB-7721). Он будет надёжно фиксировать дверь в закрытом состоянии. </p>
+      
+      <br/> 
+      <br/>
+      
+      <p>Чаще всего используются в качестве исполнительных устройств в системах контроля и управления доступа (на входные двери в подъездах, офисах, банках, бизнес центрах и др. помещениях). Совместим с видеодомофонами, кодовыми клавиатурами, считывателями, котроллерами, кнопками выхода и другими устройствами СКУД.  </p>
+      
+      <br/> 
+      <br/>
+      
+      <p>Принцип работы основан на примагничивании ответной планки, которая крепится на дверь к замку на дверной коробке. При отсутствии питания – замок открывается, что соответствует требованиям противопожарной безопасности.  </p>
+      
+      <br/> 
+      <br/>
+      
+      <p>Питание: DC12V 420mA, DC24V 250mA  </p>
+      
+      <br/> 
+      <br/>
+      
+      <p>Вес: 1860 г.</p>
+      
+      <br/> 
+      <br/>
+      
+      <p>Габариты:</p>
+      
+      <br/> 
+      <li>Замок 250х46х25 мм.</li>
+      <li>Ответная планка (якорь) 180х38х12 мм. </li>
+      <br/>
+      
+      <p>Габариты:</p>
+      
+      <br/> 
+      <li>Электромагнитный замок; </li>
+      <li>Ответная часть (планка); </li>
+      <li>Крепежный комплект;</li>
+      <li>Монтажный стикер с разметкой; </li>
+      <li>Инструкция.</li>
+      
+      <style jsx>
+        {
+          `
+          .tbody{
+              display: flex;
+              width:100%;
+              flex-direction: column;
+            }
+            .tr{
+              display: flex;
+              min-height: 40px;
+            }
+            .td{
+              word-wrap: break-word;
+              border:1px solid black;
+              display: flex;
+              padding-left:5px;
+              padding-top:10px;
+              padding-bottom:10px;
+              justify-content: center;
+              flex-direction: column;
+              width:50%;
+            }
+            iframe{
+              width:560px;
+              height:315px;
+            }
+            @media (max-width: 1000px){
+              iframe{
+                width:100%;
+                height:315px;
+              }
+              .td{
+                word-wrap: break-word;
+                border:1px solid black;
+                display: flex;
+                padding-left:0px;
+                padding-top:0px;
+                padding-bottom:0px;
+                justify-content: center;
+                flex-direction: column;
+                width:50%;
+              }
+            }
+          `
+        }
+      </style>
+    </div>
+    
+
+  
+  
+  },
+  16:{
+    id: 16,
+    name: 'Кнопка выхода бесконтактная металлическая накладная SEVEN K-7497ND',
+    description:"",
+    img_url:{
+      0:'/static/products/16/1.jpg',
+      1:'/static/products/16/2.jpg',
+      2:'/static/products/16/3.jpg',
+      3:'/static/products/16/4.jpg',
+      4:'/static/products/16/5.jpg',
+      
+    },
+    price: "457",
+    created_at: Date.now(),
+    updated_at: Date.now(),
+    categories:'Комплекты контроля доступа',
+    about:{
+      0:{
+        name:"Основные атрибуты",
+        info:{
+          0:{
+            name:"Производитель",
+            type:"SEVEN Systems"
+          },
+          1:{
+            name:"Страна производитель",
+            type:"Китай"
+          },
+          
+         
+        }
+      },
+      
+      
+    },
+    detaildescription:
+    <div style={{width:"100%",color:"#666666"}} key="detaildescription0">
+      <br/>
+      
+      <p>Особенности бесконтактной (NO TOUCH) металлической кнопки выхода SEVEN K-7497ND:</p>
+      
+      <br/> 
+      <li>Выполнена в металлическом корпусе из нержавеющей стали.</li>
+      <li>Позволяет открывать замок двери без касания рукой кнопки выхода, срабатывает на расстоянии до 30 см.</li>
+      <li>Подсветка - в режиме ожидания индикатор светится синим цветом, в момент открытия двери - зеленым.</li>
+      <li>Подходит для установки вместе с аудио и видеодомофонами, электромагнитными и электроригельными замками.</li>
+      <li>Предназначена для систем контроля и управления доступом.</li>
+      <li>Накладной тип монтажа кнопки позволяет установить ее на любую поверхность.</li>
+      <li>Кнопка имеет световую LED индикацию сработки, регулировку чувствительности сенсора, регулировку времени задержки при сработке. </li>
+      <br/>
+      
+      <p>Основные характеристики кнопки выхода с подсветкой SEVEN K-7497ND для СКУД:</p>
+      
+      <br/> 
+      <li>Тип монтажа: накладной.</li>
+      <li>Материал корпуса: нержавеющая сталь.</li>
+      <li>Контакты: NO, NC, COM.</li>
+      <li>Входное напряжение: 12 В, 24 В.</li>
+      <li>Предназначена для систем контроля и управления доступом.</li>
+      <li>Время задержки: настраиваемое 0,3-30 с.</li>
+      <li>Чувствительность: настраиваемая 3-30 см.</li>
+      <li>Размер: 80х32х23 мм.</li>
+      <br/>
+      
+      <p>Видеообзор бесконтактной накладной кнопки выхода SEVEN K-7497ND: </p>
+      
+      <br/> 
+      <div style={{display:"flex",justifyContent:"center"}}>
+        <iframe src='https://www.youtube.com/embed/iNQSY3tNFkI'
+     
+          frameBorder='0'
+          allow='autoplay; encrypted-media'
+          allowFullScreen
+          title='video'
+          
+        />
+      </div>
+      <style jsx>
+        {
+          `
+          .tbody{
+              display: flex;
+              width:100%;
+              flex-direction: column;
+            }
+            .tr{
+              display: flex;
+              min-height: 40px;
+            }
+            .td{
+              word-wrap: break-word;
+              border:1px solid black;
+              display: flex;
+              padding-left:5px;
+              padding-top:10px;
+              padding-bottom:10px;
+              justify-content: center;
+              flex-direction: column;
+              width:50%;
+            }
+            iframe{
+              width:560px;
+              height:315px;
+            }
+            @media (max-width: 1000px){
+              iframe{
+                width:100%;
+                height:315px;
+              }
+              .td{
+                word-wrap: break-word;
+                border:1px solid black;
+                display: flex;
+                padding-left:0px;
+                padding-top:0px;
+                padding-bottom:0px;
+                justify-content: center;
+                flex-direction: column;
+                width:50%;
+              }
+            }
+          `
+        }
+      </style>
+    </div>
+    
+
+  
+  
+  },
+  17:{
+    id: 17,
+    name: 'Кнопка выхода бесконтактная металлическая накладная SEVEN K-7497ND',
+    description:"формат бесконтактных радиочастотных идентификационных карт, которые относятся к классу пассивных RFID, поскольку не имеют встроенного источника питания. Основным преимуществом перед другими ключами является шифрование передаваемых данных и встроенная перезаписываемая память объемом 1024 байт. Работает в частотном диапазоне 13.56 МГц. Эти карты имеют стандартный размер 86 х 54 мм (стандарт ISO7810). Карта MIFARE SEVEN R-73 – тонкая (0,8 мм). Тонкие карты отлично поддаются печати и  удобны для хранения в портмоне или бумажнике, тем более что RFID стандарт MIFARE позволяет считывать информацию до 15 см от устройства чтения.",
+    img_url:{
+      0:'/static/products/17/1.jpg',
+      1:'/static/products/17/2.jpg',
+      2:'/static/products/17/3.jpg',
+      3:'/static/products/17/4.jpg',
+      4:'/static/products/17/5.jpg',
+      
+    },
+    price: "43",
+    created_at: Date.now(),
+    updated_at: Date.now(),
+    categories:'Комплекты контроля доступа',
+    about:{
+      0:{
+        name:"Основные атрибуты",
+        info:{
+          0:{
+            name:"Производитель",
+            type:"SEVEN Systems"
+          },
+          1:{
+            name:"Страна производитель",
+            type:"Китай"
+          },
+          
+          2:{
+            name:"Режим работы",
+            type:"Бесконтактный"
+          },
+        }
+      },
+      
+      
+    },
+    detaildescription:
+    <div style={{width:"100%",color:"#666666"}} key="detaildescription0">
+      <br/>
+      
+      <p style={{fontSize:"30px", textAlign:"center"}}>В наборе 5 шт (На выбор карты или брелки) </p>
+      <br/>
+      
+      <p style={{fontSize:"20px"}}>Особенности бесконтактных RFID брелков MIFARE SEVEN R-75: </p>
+      
+      <br/> 
+      <li>Основным преимуществом брелков MIFARE 1K ​перед другими бесконтактными идентификаторами можно считать шифрование передаваемых данных и встроенную перезаписываемую память объемом 1024 байт. </li>
+      <li>Работает в частотном диапазоне 13.56 МГц. </li>
+      <li>Брелки изготовлены из цветного ABS пластика.  </li>
+      <li>Форм-фактор: капля.</li>
+      <li>Габариты: 30* 45 * 4 мм. </li>
+      <li>Цвет синий.</li>
+      <br/>
+      
+      <p style={{fontSize:"20px"}}>Основная сфера применения брелков-идентификаторов SEVEN R-75 в системах контроля и управления доступом: </p>
+      
+      <br/> 
+      <li>идентификация клиентов в бизнес-центре; </li>
+      <li>фитнес – центр;</li>
+      <li>общественная парковка; </li>
+      <li>парк развлечений;</li>
+      <li>доступ в учреждения любого вида. </li>
+      
+      <br/> 
+      <div style={{display:"flex",justifyContent:"center"}}>
+        <iframe src='https://www.youtube.com/embed/21MM5Y11dYo'
+     
+          frameBorder='0'
+          allow='autoplay; encrypted-media'
+          allowFullScreen
+          title='video'
+          
+        />
+      </div>
+      <br/>
+      
+      <p>Карта доступа SEVEN R-73 – формат бесконтактных радиочастотных идентификационных карт, которые относятся к классу пассивных RFID, поскольку не имеют встроенного источника питания. Основным преимуществом перед другими ключами является шифрование передаваемых данных и встроенная перезаписываемая память объемом 1024 байт. Работает в частотном диапазоне 13.56 МГц. Эти карты имеют стандартный размер 86 х 54 мм (стандарт ISO7810). Карта MIFARE SEVEN R-73 – тонкая (0,8 мм). Тонкие карты отлично поддаются печати и  удобны для хранения в портмоне или бумажнике, тем более что RFID стандарт MIFARE позволяет считывать информацию до 15 см от устройства чтения.   </p>
+      
+      <br/> 
+      <li>Размеры: 86 х 54см х 0,8 мм.  </li>
+      <li>Рабочая температура от -25 до +85. </li>
+      <li>Материал –  белый пластик  </li>
+      
+      
+      <br/> 
+      <style jsx>
+        {
+          `
+          .tbody{
+              display: flex;
+              width:100%;
+              flex-direction: column;
+            }
+            .tr{
+              display: flex;
+              min-height: 40px;
+            }
+            .td{
+              word-wrap: break-word;
+              border:1px solid black;
+              display: flex;
+              padding-left:5px;
+              padding-top:10px;
+              padding-bottom:10px;
+              justify-content: center;
+              flex-direction: column;
+              width:50%;
+            }
+            iframe{
+              width:560px;
+              height:315px;
+            }
+            @media (max-width: 1000px){
+              iframe{
+                width:100%;
+                height:315px;
+              }
+              .td{
+                word-wrap: break-word;
+                border:1px solid black;
+                display: flex;
+                padding-left:0px;
+                padding-top:0px;
+                padding-bottom:0px;
+                justify-content: center;
+                flex-direction: column;
+                width:50%;
+              }
+            }
+          `
+        }
+      </style>
+    </div>
+    
+
+  
+  
+  },
 };
 
 export default offlineProducts;
