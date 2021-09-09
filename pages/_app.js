@@ -7,8 +7,8 @@ import  Router  from 'next/router';
 
 export default function MyApp({ Component, pageProps}) {
   
-  const router = useRouter()
-    
+  const router = useRouter();
+    debugger;
     if(router.pathname==='/404'&& router.asPath!=='/404')
     useEffect(() => {
         Router.push({
