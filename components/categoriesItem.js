@@ -13,6 +13,7 @@ import {
   MdKeyboardArrowRight,
   MdLock
 } from 'react-icons/md';
+import { RiRemoteControlLine } from "react-icons/ri";
 const iconSlugs = {
   MdDesktopWindows,
   MdDesktopMac,
@@ -24,7 +25,8 @@ const iconSlugs = {
   MdTv,
   MdVideogameAsset,
   MdWatch,
-  MdLock
+  MdLock,
+  RiRemoteControlLine
 };
 
 export default function   CategoriesItem({ category }) {
